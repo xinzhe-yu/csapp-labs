@@ -47,7 +47,7 @@ full binary overview.
 ### Solution: 
 - 1 2 4 8 16 32
 
-![[IMG_0964.jpg]]
+![Phase 2 notes](attachments/phase2.jpg)
 - This is my first time reverse engineering, you will see my notes improve over the course of this lab. 
 ```
 0000000000400efc <phase_2>:
@@ -115,7 +115,7 @@ int phase_3(char *input) {
 ### Solution: 
 - 5 206
 
-![[IMG_0976.jpg]]
+![Phase 3 notes](attachments/phase3.jpg)
 ```
 0000000000400f43 <phase_3>:
   400f43:       48 83 ec 18             sub    rsp,0x18
@@ -166,7 +166,8 @@ int phase_3(char *input) {
 * cmp \[rsp+0xc], 0x0 — second input must be 0
 ### Solution:
 - 7 0 
-![[IMG_0977.jpg]]
+
+![Phase 4 notes](attachments/phase4.jpg)
 ```
 0000000000400fce <func4>:
   400fce:       48 83 ec 08             sub    rsp,0x8
@@ -227,7 +228,8 @@ for (int i = 0; i < 6; i++)
 - Compare transformed input to "flyers"
 ### Solution:
 - IONEFG 
-![[IMG_0981.jpg]]
+
+![Phase 5 notes](attachments/phase5.jpg)
 ```
 0000000000401062 <phase_5>:
   401062:       53                      push   rbx
@@ -289,10 +291,10 @@ for (int i = 0; i < 6; i++)
 ### Solution:
 4 3 2 1 6 5
 
-![[IMG_0983.jpg]]
-![[IMG_0984.jpg]]
+![Phase 6 notes](attachments/phase6-0.jpg)
+![Phase 6 notes](attachments/phase6-1.jpg)
 - Each transformed number indicates how many nodes to traverse forward from the head. The resulting node's address is stored in order on the stack starting at rsp+0x20.
-![[IMG_0986.jpg]]
+![Phase 6 notes](attachments/phase6-2.jpg)
 ```
 00000000004010f4 <phase_6>:
   4010f4:	41 56                	push   r14
@@ -423,7 +425,7 @@ int func7(node *current, int user_input) {
     return func7(current, user_input) * 2;
 }
 ```
-![[IMG_0987.jpg]]
+![Phase secret notes](attachments/secret.jpg)
 
 ```
 00000000004015c4 <phase_defused>:
