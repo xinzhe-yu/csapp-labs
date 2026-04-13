@@ -9,6 +9,8 @@
 | 4     | RTARGET | 2     | ROP    | touch2   | 35     |
 | 5     | RTARGET | 3     | ROP    | touch3   | 5      |
 
+Questions are in the attacklab.pdf
+
 ## Phase 1
 Goal: Call touch1()
 
