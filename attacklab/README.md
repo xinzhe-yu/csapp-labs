@@ -9,13 +9,13 @@
 | 4     | RTARGET | 2     | ROP    | touch2   | 35     |
 | 5     | RTARGET | 3     | ROP    | touch3   | 5      |
 
-Questions are in the attacklab.pdf
+Questions are in the [Attack Lab PDF](attacklab.pdf)
 
-- [[#Phase 1]]
-- [[#Phase 2]]
-- [[#Phase 3]]
-- [[#Phase 4]]
-- [[#Phase 5]]
+- [Phase 1](#phase-1)
+- [Phase 2](#phase-2)
+- [Phase 3](#phase-3)
+- [Phase 4](#phase-4)
+- [Phase 5](#phase-5)
 
 ## Phase 1
 Goal: Call touch1()
@@ -337,5 +337,5 @@ fa 18 40 00 00 00 00 00     /* touch3() */
 
 ```
 
-![[attacklab.pdf]]
+[Attack Lab PDF](attacklab.pdf)
 
