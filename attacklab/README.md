@@ -11,6 +11,12 @@
 
 Questions are in the attacklab.pdf
 
+- [[#Phase 1]]
+- [[#Phase 2]]
+- [[#Phase 3]]
+- [[#Phase 4]]
+- [[#Phase 5]]
+
 ## Phase 1
 Goal: Call touch1()
 
